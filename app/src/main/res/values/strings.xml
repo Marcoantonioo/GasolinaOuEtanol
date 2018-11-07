@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gasolina Or Etanol</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="preco_etanol">Preço do Etanol</string>
+    <string name="preco_gasolina">Preço da Gasolina</string>
+    <string name="melhor_gasolina">É melhor utilizar Gasolina!</string>
+    <string name="melhor_etanol">É melhor utilizar Etanol!</string>
+
+</resources>
