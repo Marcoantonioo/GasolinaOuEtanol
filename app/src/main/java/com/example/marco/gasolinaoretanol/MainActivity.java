@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
                     double valorGasolina = Double.parseDouble(textPrecoGasolina);
                     double valorEtanol = Double.parseDouble(textPrecoEtanol);
 
-                    double resp = valorEtanol / valorGasolina;
+                    double resp = valorGasolina / valorEtanol;
 
-                    if (resp <= 0.7) {
+                    if (resp <= 0.7 ) {
                         resultado.setText(R.string.melhor_etanol);
                     } else {
                         resultado.setText(R.string.melhor_gasolina);
@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
                     Context context = getApplicationContext();
                     String texto = "Campo vazio, Preecha-o! ";
                     int duracao  = Toast.LENGTH_LONG;
-
                     Toast toast = Toast.makeText(context, texto, duracao);
                     toast.show();
                 }
